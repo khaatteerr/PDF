@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/monat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Monat"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+
+        android:id="@+id/tage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="30 Tage"
+        android:textColor="#0984e3"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <TextView
+
+        android:id="@+id/total_tv_one2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25.0"
+        android:textColor="#d63031"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tage"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="€"
+        android:textColor="#d63031"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/total_tv_one2"
+        app:layout_constraintStart_toEndOf="@+id/total_tv_one2"
+        app:layout_constraintTop_toTopOf="@+id/total_tv_one2"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+
+        android:id="@+id/monat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1 Monat"
+        android:textColor="#0984e3"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_tv_one2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monat2"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+
+        android:id="@+id/paypal_btn_three2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Fachkundeprufung"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+    <TextView
+
+        android:id="@+id/paypal_btn_six2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragen mit Losungen"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/paypal_btn_three2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <TextView
+
+        android:id="@+id/paypal_btn_year2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathe Fragen"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/paypal_btn_six2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <TextView
+
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karteikarten"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/paypal_btn_year2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <TextView
+
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uber 20 Sprachen"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/paypal_btn_one2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#d63031"
+        android:text="Bestellen"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/codeEscape"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#0984e3"
+        android:text="Gustscheincode"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/paypal_btn_one2"
+        app:layout_constraintStart_toStartOf="@+id/paypal_btn_one2"
+        app:layout_constraintTop_toBottomOf="@+id/paypal_btn_one2" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

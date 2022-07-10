@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/drawable-v24/shape3.xml" value="0.269" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/drawable/boarder.xml" value="0.199" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/drawable/boarderright.xml" value="0.199" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/drawable/shape.xml" value="0.196" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/drawable/shape2.xml" value="0.196" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_grade.xml" value="0.19519927536231885" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_math.xml" value="0.27447916666666666" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_math_questions.xml" value="0.27447916666666666" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_pay.xml" value="0.27447916666666666" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_payment.xml" value="0.2" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_pdf_viewer.xml" value="0.27447916666666666" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_quizs.xml" value="0.1" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/activity_written_questions.xml" value="0.4" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/pay.xml" value="0.2734375" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/payp.xml" value="0.536" />
+        <entry key="..\:/android_projects/final_android_project/PDF/app/src/main/res/layout/shape.xml" value="0.3193430656934307" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
