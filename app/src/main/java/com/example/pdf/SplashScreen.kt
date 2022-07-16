@@ -94,20 +94,20 @@ class SplashScreen : AppCompatActivity() {
                     editorDate.putBoolean("didPay", false)
                     editorDate.apply()
                 }
-                if ((codeText == "5484316" && checkMonthCode in 1..11 && c.get(Calendar.MONTH) == checkMonthCode + 1) ||
-                    (checkMonthCode == 12 && c.get(Calendar.MONTH) == 1 && codeText == "5484316")
-                    || (codeText == "3548949" && checkMonthCode in 1..9 && c.get(Calendar.MONTH) == checkMonthCode + 3) ||
-                    (codeText == "3548949" && checkMonthCode == 10 && c.get(Calendar.MONTH) == 1) ||
-                    (codeText == "3548949" && checkMonthCode == 11 && c.get(Calendar.MONTH) == 2) ||
-                    (codeText == "3548949" && checkMonthCode == 12 && c.get(Calendar.MONTH) == 3)
-                    || (codeText == "9587654" && checkMonthCode in 1..6 && c.get(Calendar.MONTH) == checkMonthCode + 6) ||
-                    (codeText == "9587654" && checkMonthCode == 7 && c.get(Calendar.MONTH) == 1) ||
-                    (codeText == "9587654" && checkMonthCode == 8 && c.get(Calendar.MONTH) == 2) ||
-                    (codeText == "9587654" && checkMonthCode == 9 && c.get(Calendar.MONTH) == 3) ||
-                    (codeText == "9587654" && checkMonthCode == 10 && c.get(Calendar.MONTH) == 4) ||
-                    (codeText == "9587654" && checkMonthCode == 11 && c.get(Calendar.MONTH) == 5) ||
-                    (codeText == "9587654" && checkMonthCode == 12 && c.get(Calendar.MONTH) == 6)||
-                    (codeText == "3659754" && checkMonthCode  == c.get(Calendar.MONTH) && checkYearCode == c.get(Calendar.YEAR) + 1)
+                if (((codeText == "5484316"||codeText == "5484316") && checkMonthCode in 1..11 && c.get(Calendar.MONTH) == checkMonthCode + 1) ||
+                    (checkMonthCode == 12 && c.get(Calendar.MONTH) == 1 && (codeText == "5484316"||codeText == "5484316"))
+                    || ((codeText == "3548949"||codeText == "9625484")&& checkMonthCode in 1..9 && c.get(Calendar.MONTH) == checkMonthCode + 3) ||
+                    ((codeText == "3548949"||codeText == "9625484") && checkMonthCode == 10 && c.get(Calendar.MONTH) == 1) ||
+                    ((codeText == "3548949"||codeText == "9625484") && checkMonthCode == 11 && c.get(Calendar.MONTH) == 2) ||
+                    ((codeText == "3548949"||codeText == "9625484") && checkMonthCode == 12 && c.get(Calendar.MONTH) == 3)
+                    || ((codeText == "9587654" ||codeText =="9954259")&& checkMonthCode in 1..6 && c.get(Calendar.MONTH) == checkMonthCode + 6) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 7 && c.get(Calendar.MONTH) == 1) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 8 && c.get(Calendar.MONTH) == 2) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 9 && c.get(Calendar.MONTH) == 3) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 10 && c.get(Calendar.MONTH) == 4) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 11 && c.get(Calendar.MONTH) == 5) ||
+                    ((codeText == "9587654" ||codeText =="9954259") && checkMonthCode == 12 && c.get(Calendar.MONTH) == 6)||
+                    ((codeText == "3659754"||codeText =="6354551") && checkMonthCode  == c.get(Calendar.MONTH) && checkYearCode == c.get(Calendar.YEAR) + 1)
                 ) {
                     val editorDate = sharedPreferences.edit()
                     editorDate.putBoolean("code", false)
